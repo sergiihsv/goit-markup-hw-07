@@ -6,6 +6,12 @@
 @import "./base/container";
 @import "./utils/visually-hidden";
 
+//COMPONENTS
+
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/modal-form";
+
 //LAYOUT
 @import "./layout/header";
 @import "./layout/hero";
@@ -13,3 +19,7 @@
 @import "./layout/our-works";
 @import "./layout/our-team";
 @import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio-buttons";
+@import "./layout/products";
+@import "./layout/overlay";
