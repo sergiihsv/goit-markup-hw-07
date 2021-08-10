@@ -1,9 +1,9 @@
 .our-works {
   display: flex;
-}
 
-.our-works-items:not(:last-child) {
-  margin-right: 30px;
+  &-items:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .section-works {

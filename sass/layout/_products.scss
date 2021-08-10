@@ -30,12 +30,12 @@
 
 .list-btn {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.list-btn:hover,
-.list-btn:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
 
 .products {
@@ -52,24 +52,24 @@
   background: var(--secondary-text-color);
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.product:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+  &-item {
+    display: block;
+  }
 
-.product-item {
-  display: block;
-}
+  &-list {
+    border: 1px solid #eeeeee;
+    border-top: none;
+    padding: 20px 24px;
+  }
 
-.product-list {
-  border: 1px solid #eeeeee;
-  border-top: none;
-  padding: 20px 24px;
-}
+  &-box {
+    position: relative;
+    overflow: hidden;
+  }
 
-.product-box {
-  position: relative;
-  overflow: hidden;
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
