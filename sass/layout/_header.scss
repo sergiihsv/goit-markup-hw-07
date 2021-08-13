@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.header-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -25,6 +25,10 @@
   margin-right: 93px;
   animation-duration: 500ms;
   animation-iteration-count: 2;
+}
+
+.header__logo {
+  margin-right: 93px;
 }
 
 .menu {
