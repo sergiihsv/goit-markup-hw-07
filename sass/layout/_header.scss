@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
 
-  &-item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 50px;
   }
 }
@@ -40,11 +40,16 @@
   display: flex;
 }
 
-.contact-tel {
+.contact__tel {
   margin-left: 50px;
 }
 
-.contact-email-icon {
+.contact__email-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contact__tel-icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -62,7 +67,7 @@
   background-color: var(--background-color);
 }
 
-.menu-link {
+.menu__link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -93,7 +98,7 @@
   }
 }
 
-.menu .menu-link.current {
+.menu .menu__link.current {
   color: var(--accent-color);
 }
 
